@@ -22,7 +22,9 @@ export enum CeloContractName {
   Reserve = 'Reserve',
   ReserveSpenderMultiSig = 'ReserveSpenderMultiSig',
   SortedOracles = 'SortedOracles',
-  StableToken = 'StableToken',
+  StableToken = 'StableToken', // Do not remove for compatibility
+  // StableTokenUSD = 'StableToken',
+  StableTokenEUR = 'StableTokenEUR',
   TransferWhitelist = 'TransferWhitelist',
   Validators = 'Validators',
 }
