@@ -9,7 +9,9 @@ export enum CeloContractName {
   Election = 'Election',
   EpochRewards = 'EpochRewards',
   Escrow = 'Escrow',
-  Exchange = 'Exchange',
+  Exchange = 'Exchange', // Do not remove for compatibility
+  ExchangeUSD = 'Exchange', // TODO add to registry
+  ExchangeEUR = 'ExchangeEUR', // Do not remove for compatibility
   FeeCurrencyWhitelist = 'FeeCurrencyWhitelist',
   Freezer = 'Freezer',
   GasPriceMinimum = 'GasPriceMinimum',
@@ -23,7 +25,7 @@ export enum CeloContractName {
   ReserveSpenderMultiSig = 'ReserveSpenderMultiSig',
   SortedOracles = 'SortedOracles',
   StableToken = 'StableToken', // Do not remove for compatibility
-  // StableTokenUSD = 'StableToken',
+  StableTokenUSD = 'StableToken', // TODO add to registry
   StableTokenEUR = 'StableTokenEUR',
   TransferWhitelist = 'TransferWhitelist',
   Validators = 'Validators',
