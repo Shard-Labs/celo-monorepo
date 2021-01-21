@@ -75,6 +75,13 @@ const networks = {
     network_id: 200312,
     gasPrice: 100000000000,
   },
+  test: {
+    host: '127.0.0.1',
+    port: 8545,
+    network_id: '*',
+    gasPrice: 1,
+    gas: 1000000000,
+  },
   rc1: {
     host: '127.0.0.1',
     port: 8545,
